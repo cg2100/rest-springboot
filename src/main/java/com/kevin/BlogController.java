@@ -8,6 +8,6 @@ public class BlogController {
 
     @RequestMapping("/")
     public String index() {
-        return "Congratulations from BlogController.java";
+        return "Congratulations from BlogController.java, hello";
     }
 }
